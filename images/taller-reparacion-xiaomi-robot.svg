@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 700" role="img" aria-labelledby="title desc">
+  <title id="title">Taller especializado en reparación de robots aspiradores Xiaomi</title>
+  <desc id="desc">Ilustración de banco técnico con un robot aspirador Xiaomi desmontado y herramientas.</desc>
+  <defs><linearGradient id="b" x1="0" x2="1"><stop stop-color="#f7f7f7"/><stop offset="1" stop-color="#ececec"/></linearGradient><filter id="s"><feDropShadow dx="0" dy="15" stdDeviation="18" flood-opacity=".2"/></filter></defs>
+  <rect width="1000" height="700" rx="28" fill="url(#b)"/>
+  <rect x="0" y="480" width="1000" height="220" fill="#1c1c1c"/>
+  <g transform="translate(510 420)" filter="url(#s)"><ellipse cx="0" cy="60" rx="270" ry="70" fill="#000" opacity=".2"/><ellipse cx="0" cy="0" rx="250" ry="185" fill="#111"/><ellipse cx="0" cy="-15" rx="220" ry="150" fill="#2a2a2a" stroke="#444" stroke-width="8"/><circle cx="-30" cy="-55" r="52" fill="#171717" stroke="#666" stroke-width="7"/><path d="M-150 70h300" stroke="#ff6900" stroke-width="10" stroke-linecap="round"/></g>
+  <g stroke="#ff6900" stroke-width="12" stroke-linecap="round"><path d="M155 160l90 90"/><path d="M245 160l-90 90"/><path d="M785 140v150"/><path d="M735 190h100"/></g>
+  <g fill="#fff" stroke="#222" stroke-width="8"><circle cx="200" cy="205" r="66"/><circle cx="785" cy="215" r="66"/></g>
+  <g fill="#ff6900"><circle cx="200" cy="205" r="16"/><circle cx="785" cy="215" r="16"/></g>
+  <text x="55" y="75" fill="#111" font-family="Arial, sans-serif" font-size="42" font-weight="700">Diagnóstico y reparación especializada</text>
+  <text x="55" y="120" fill="#666" font-family="Arial, sans-serif" font-size="24">Electrónica, batería, sensores, ruedas, motor, Wi‑Fi y base de carga</text>
+</svg>
