@@ -1,27 +1,33 @@
-XiaoTech - nueva web HTML para robotlimpieza.com.es
+XiaoTech - web estática HTML/CSS/JS
 
 Archivos principales:
 - index.html
 - styles.css
 - script.js
-- /images/
-- robots.txt
-- sitemap.xml
+- gracias.html
 - politica-privacidad.html
 - aviso-legal.html
+- robots.txt
+- sitemap.xml
+- images/
 
-Publicación:
-1. Sube todos los archivos manteniendo la misma estructura.
-2. index.html debe quedar en la raíz del dominio.
-3. Si usas Vercel, puedes subir esta carpeta como proyecto estático sin framework.
-4. El formulario usa mailto: y abre el cliente de correo del visitante para escribir a soporte@kelatos.com.
-5. Revisa/completa los textos legales antes de publicar.
+CAMBIOS INCLUIDOS
+- Servicio enfocado en Robot Aspiradores, Smartwatch y ordenadores portátiles Xiaomi.
+- WhatsApp: +34 649 97 01 28.
+- Atención telefónica 24/365: 914 46 85 03.
+- Tres CTA en portada: WhatsApp, recogida y llamada.
+- Hero de dos columnas sin imagen central.
+- Fondo corporativo naranja oscuro.
+- Enlaces a páginas de servicio existentes.
+- Botones de opiniones de Google y reparaciones de YouTube.
+- Mapa de Google integrado.
+- Chatbot n8n integrado y adaptado al naranja XiaoTech.
+- Formulario sin mailto mediante FormSubmit.
+- Datos Schema y SEO actualizados.
 
-Datos usados desde robotlimpieza.com.es:
-- Dirección: C. de Joaquín María López, 26, 28015 Madrid
-- Teléfono principal: +34 910 05 40 92
-- Horario: L-V 09:30-18:00
-- Parking: Calle Blasco de Garay 61
-- Diagnóstico: 20 € + IVA
-- WhatsApp usado en artículos del sitio: +34 606 80 63 76
-- Servicio técnico independiente; no gestiona garantía oficial Xiaomi.
+IMPORTANTE SOBRE EL FORMULARIO
+El formulario usa https://formsubmit.co/soporte@kelatos.com para enviar los mensajes sin abrir un cliente de correo.
+En el primer envío, FormSubmit puede enviar un correo de activación a soporte@kelatos.com. Es necesario aceptar esa activación una sola vez para que los siguientes formularios se entreguen normalmente.
+
+DESPLIEGUE
+Sube la carpeta completa a Vercel como proyecto estático. No requiere npm ni framework.
