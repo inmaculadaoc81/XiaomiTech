@@ -1,33 +1,25 @@
-XiaoTech - web estática HTML/CSS/JS
+XiaomiTech | Servicio Técnico Reparación Robot Aspiradores Xiaomi
 
-Archivos principales:
-- index.html
-- styles.css
-- script.js
-- gracias.html
-- politica-privacidad.html
-- aviso-legal.html
-- robots.txt
-- sitemap.xml
-- images/
+CAMBIOS
+- La web queda dedicada exclusivamente a robot aspiradores Xiaomi.
+- Título SEO: XiaomiTech | Servicio Técnico Reparación Robot Aspiradores Xiaomi.
+- Teléfono en información: +34 910 05 40 92.
+- Botón de atención telefónica 24/365: +34 914 46 85 03.
+- WhatsApp: +34 649 97 01 28, mostrado solo en CTA principal y botones flotantes, no repetido en la caja de información.
+- Icono de WhatsApp real (Font Awesome Free Brands) en botones correspondientes.
+- Favicon creado a partir del isotipo del logotipo facilitado.
+- Se ha eliminado la palabra “taller”; se utiliza “instalaciones”, “servicio”, “recepción” o “atención presencial”.
+- Fondo principal cambiado a azul marino/petróleo, complementario al naranja corporativo.
+- Formulario conectado a /api/contacto mediante Gmail API de Google Workspace y variables de entorno Vercel.
+- FormSubmit eliminado.
+- Chatbot n8n integrado con color naranja.
 
-CAMBIOS INCLUIDOS
-- Servicio enfocado en Robot Aspiradores, Smartwatch y ordenadores portátiles Xiaomi.
-- WhatsApp: +34 649 97 01 28.
-- Atención telefónica 24/365: 914 46 85 03.
-- Tres CTA en portada: WhatsApp, recogida y llamada.
-- Hero de dos columnas sin imagen central.
-- Fondo corporativo naranja oscuro.
-- Enlaces a páginas de servicio existentes.
-- Botones de opiniones de Google y reparaciones de YouTube.
-- Mapa de Google integrado.
-- Chatbot n8n integrado y adaptado al naranja XiaoTech.
-- Formulario sin mailto mediante FormSubmit.
-- Datos Schema y SEO actualizados.
+VARIABLES DE ENTORNO NECESARIAS EN VERCEL
+GOOGLE_CLIENT_ID
+GOOGLE_CLIENT_SECRET
+GOOGLE_REFRESH_TOKEN
+GOOGLE_EMAIL
+CONTACT_EMAIL
 
-IMPORTANTE SOBRE EL FORMULARIO
-El formulario usa https://formsubmit.co/soporte@kelatos.com para enviar los mensajes sin abrir un cliente de correo.
-En el primer envío, FormSubmit puede enviar un correo de activación a soporte@kelatos.com. Es necesario aceptar esa activación una sola vez para que los siguientes formularios se entreguen normalmente.
-
-DESPLIEGUE
-Sube la carpeta completa a Vercel como proyecto estático. No requiere npm ni framework.
+Las variables pueden ser Shared Environment Variables y vincularse a este proyecto.
+Después de añadir/cambiar variables, realiza un nuevo deployment para que Vercel las aplique.
