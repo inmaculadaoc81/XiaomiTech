@@ -52,7 +52,7 @@ a{text-decoration:none;color:inherit}.wrap{width:min(1180px,92%);margin:auto}
 .eyebrow{display:inline-flex;align-items:center;gap:10px;color:#fff;font-size:12px;font-weight:950;letter-spacing:2px;text-transform:uppercase;margin-bottom:18px}
 .eyebrow::before{content:"";width:34px;height:4px;background:#fff;border-radius:999px}
 h1{color:#fff;font-size:clamp(38px,4.4vw,58px);line-height:1.02;letter-spacing:-2.2px;margin:0 0 24px;max-width:800px}
-.accent{color:#111}
+.accent{color:#fcd34d}
 .diagnosis{display:inline-flex;align-items:center;gap:12px;margin:8px 0 28px;padding:13px 17px;border-radius:16px;background:var(--warn);border:1px solid #efc49f}
 .diagnosis span{display:grid;place-items:center;width:31px;height:31px;border-radius:50%;background:var(--orange);color:#fff;font-weight:950}
 .diagnosis strong{color:var(--orange);font-size:18px}
