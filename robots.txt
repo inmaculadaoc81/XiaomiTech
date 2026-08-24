@@ -1,4 +1,3 @@
 User-agent: *
 Allow: /
-Disallow: /api/
 Sitemap: https://robotlimpieza.com.es/sitemap.xml
