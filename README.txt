@@ -36,4 +36,23 @@ CONTACT_EMAIL=soporte@kelatos.com
 El correo de soporte no aparece visible en el HTML; solo se utiliza en /api/contacto.
 
 Google Analytics:
-No se proporcionó un código para esta web; no se ha añadido ninguno.
+G-LCFXLT9V01
+
+REVISIÓN (fixes aplicados):
+- Ya tenía menú móvil funcional, colisión del chatbot corregida y borde
+  blanco en el botón del chat (aplicado en un commit anterior); no se ha
+  tocado nada de eso.
+- Ya tenía datos schema.org LocalBusiness; no se ha tocado.
+- Banner de cookies: no existía. Añadido (Aceptar / Rechazar / Política
+  de privacidad → https://kelatos.com/privacy-policy/), con diseño
+  apilado a ancho completo en móvil.
+- Añadida sección de contenido SEO propio (#guia), enlazada en el menú.
+- Botón de teléfono del menú (.navcall): acortado a solo el número (iba
+  a partirse en dos líneas dentro de la píldora, como se detectó en
+  RowentaTech); añadido white-space:nowrap como salvaguarda.
+
+REDIRECCIÓN DE URLS ANTIGUAS:
+Este sitio era antes multipágina (tenía /modelos/..., eliminados en
+commits anteriores al pasar a one-page). Añadido middleware.mjs:
+cualquier URL que no sea "/" redirige (301) a la home. Añadida la
+dependencia "@vercel/functions" en package.json.

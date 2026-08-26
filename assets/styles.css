@@ -15,7 +15,7 @@ a{text-decoration:none;color:inherit}.wrap{width:min(1180px,92%);margin:auto}
 .logo{height:50px;max-width:300px;object-fit:contain}
 .links{display:flex;gap:22px;align-items:center;font-size:14px;font-weight:850}
 .links a:hover{color:var(--orange)}
-.navcall{padding:11px 16px;border-radius:999px;background:#111;color:#fff!important}
+.navcall{padding:11px 16px;border-radius:999px;background:#111;color:#fff!important;white-space:nowrap}
 .menu-btn{display:none;border:1px solid var(--line);background:#fff;color:#111;border-radius:11px;padding:10px 14px;font-weight:900;font:inherit;cursor:pointer}
 
 /* Hero */
@@ -112,6 +112,9 @@ section{padding:82px 0}.kicker{color:var(--orange);font-size:12px;letter-spacing
 
 /* Cal / FAQ / Form */
 .cal-frame{width:100%;height:720px;border:0;background:#fff}.faq{background:#faf7f4}
+.seo-content{background:var(--soft)}
+.seo-text{max-width:880px}
+.seo-text p{color:var(--muted);font-size:16px;line-height:1.7;margin:0 0 18px}
 details{background:#fff;border:1px solid var(--line);border-radius:15px;padding:18px 20px;margin:10px 0}summary{font-weight:900}
 .contact-grid{display:grid;grid-template-columns:.8fr 1.2fr;gap:48px}form{display:grid;grid-template-columns:1fr 1fr;gap:13px}.full{grid-column:1/-1}
 input,textarea{width:100%;padding:15px;border:1px solid #d9cec4;border-radius:11px;font:inherit;background:#fff}textarea{min-height:145px;resize:vertical}
