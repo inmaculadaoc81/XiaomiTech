@@ -56,3 +56,26 @@ Este sitio era antes multipágina (tenía /modelos/..., eliminados en
 commits anteriores al pasar a one-page). Añadido middleware.mjs:
 cualquier URL que no sea "/" redirige (301) a la home. Añadida la
 dependencia "@vercel/functions" en package.json.
+
+REVISIÓN ADICIONAL (esta pasada, a petición del cliente):
+- H1 no cumplía el estilo de la familia: era una frase larga (21
+  palabras), con interrogación implícita en el planteamiento y la
+  palabra condicional "si merece la pena". Reescrito, corto y
+  totalmente afirmativo: "Tu robot aspirador Xiaomi dejó de limpiar.
+  Lo reparamos hoy." Tamaño del H1 aumentado al estándar de la
+  familia: clamp(38-58px) → clamp(46-74px) en escritorio, 40px →
+  48px en móvil (no había ninguna decisión previa documentada de
+  reducirlo en este repo).
+- Fondo del hero cambiado a negro (antes degradado naranja, añadido
+  en commits "Fondo del hero anaranjado" y "Naranja del hero más
+  oscuro"). Ajustados el resto de elementos del hero para mantener
+  buen contraste sobre negro:
+  - .hero-tag ("Robot aspirador Xiaomi · Madrid"): tenía fondo #111
+    (casi negro), invisible sobre el nuevo fondo negro. Cambiado a
+    fondo naranja de marca (var(--orange)) con texto blanco.
+  - .pickup (botón "Solicita tu recogida ahora"): tenía fondo #111,
+    mismo problema de contraste. Cambiado a naranja de marca.
+  - El resto de elementos del hero (h1, .eyebrow, .accent, .hero-ring,
+    los botones WhatsApp/teléfono, la tarjeta de información) ya
+    tenían fondos propios o colores claros que mantienen buen
+    contraste sobre negro sin necesidad de cambios.
