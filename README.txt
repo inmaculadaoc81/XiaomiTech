@@ -79,3 +79,10 @@ REVISIÓN ADICIONAL (esta pasada, a petición del cliente):
     los botones WhatsApp/teléfono, la tarjeta de información) ya
     tenían fondos propios o colores claros que mantienen buen
     contraste sobre negro sin necesidad de cambios.
+
+REVISIÓN ADICIONAL 2 (a petición del cliente — diversidad de H1):
+- El H1 anterior ("dejó de limpiar. Lo reparamos hoy.") seguía la
+  misma plantilla de dos cláusulas (síntoma + solución) usada en
+  TaurusMyCook y otros repos. Reescrito con una estructura de una
+  sola frase, imperativa, sin ese patrón: "Repara tu robot aspirador
+  Xiaomi en el mismo día." (9 palabras).
