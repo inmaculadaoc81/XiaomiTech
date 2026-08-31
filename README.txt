@@ -86,3 +86,18 @@ REVISIÓN ADICIONAL 2 (a petición del cliente — diversidad de H1):
   TaurusMyCook y otros repos. Reescrito con una estructura de una
   sola frase, imperativa, sin ese patrón: "Repara tu robot aspirador
   Xiaomi en el mismo día." (9 palabras).
+
+REVISIÓN ADICIONAL 3 (checklist unificado de la familia, a petición del cliente):
+- Añadido "Sábados, domingos y días festivos estamos cerrados" debajo
+  del horario.
+- Añadida franja de aviso de servicio técnico independiente debajo
+  del menú (no existía).
+- Enlace de política de privacidad: la casilla existía pero sin
+  enlace. Añadido a https://kelatos.com/privacy-policy/, en azul y
+  subrayado.
+- Botón "Atención Telefónica..." sin icono, a diferencia del de
+  WhatsApp. Añadido.
+- Verificado: schema.org ya usaba el teléfono de la caja de
+  información (correcto); texto decorativo del hero ya se ocultaba en
+  móvil; formulario correctamente conectado a /api/contacto. Sin
+  cambios en ninguno de estos.
