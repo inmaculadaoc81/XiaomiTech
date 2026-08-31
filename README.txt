@@ -101,3 +101,10 @@ REVISIÓN ADICIONAL 3 (checklist unificado de la familia, a petición del client
   información (correcto); texto decorativo del hero ya se ocultaba en
   móvil; formulario correctamente conectado a /api/contacto. Sin
   cambios en ninguno de estos.
+
+REVISIÓN ADICIONAL (a petición del cliente, regla general de la familia):
+- Quitada la pestaña/etiqueta rotada del hero (.hero-chip o
+  .hero-tag) que sobresalía y se solapaba visualmente con la caja de
+  información en anchos de tablet/escritorio medio (detectado con
+  captura en vivo en AcerTech). Regla para toda la familia: no volver
+  a añadir este tipo de elemento decorativo.
