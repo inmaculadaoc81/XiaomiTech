@@ -131,3 +131,13 @@ REVISIÓN ADICIONAL (checklist unificado de la familia, a petición del cliente 
   móvil es un resto muerto (el elemento .hero-tag ya no existe en el
   HTML desde la revisión anterior); no afecta a nada, se deja como
   está.
+
+REVISIÓN ADICIONAL (nueva regla de menú móvil, a petición del cliente):
+- BUG REAL — la franja de aviso de independencia estaba dentro de
+  <header>. Movida fuera de <header>, como hermana justo después de
+  él y antes del hero: sigue siendo la misma franja amarilla de ancho
+  completo.
+- Verificado: el header (.header{position:sticky;top:0}) ya se
+  mantenía fijo/pegado arriba al hacer scroll; no requería cambios.
+- Verificado de nuevo: el checklist de 7 puntos ya estaba aplicado de
+  una pasada anterior; no requería cambios.
